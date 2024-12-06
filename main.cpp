@@ -3,9 +3,9 @@ int main() {
 
     // coda
     
-    coda.enqueue(10);
-    coda.enqueue(20);
-    coda.enqueue(30);
+    coda.enqueue(42);
+    coda.enqueue(21);
+    coda.enqueue(12);
 
     std::cout << "primo elemento della coda: " << coda.front() << std::endl;
 
@@ -17,9 +17,9 @@ int main() {
     Pila<int> pila;
 
     // pila
-    pila.push(10);
-    pila.push(20);
-    pila.push(30);
+    pila.push(1);
+    pila.push(32);
+    pila.push(23);
 
     std::cout << "Elemento in cima alla pila: " << pila.top() << std::endl;
 

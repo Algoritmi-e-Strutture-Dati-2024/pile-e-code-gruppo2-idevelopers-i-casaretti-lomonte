@@ -9,7 +9,7 @@ int main() {
 
     std::cout << "primo elemento della coda: " << coda.front() << std::endl;
 
-    std::cout << "Dequeue elemento: " << coda.dequeue() << std::endl;
+    std::cout << "togli elemento: " << coda.dequeue() << std::endl;
 
     std::cout << "Dimensione: " << coda.size() << std::endl;
 
@@ -22,7 +22,7 @@ int main() {
 
     std::cout << "primo elemento della pila: " << pila.top() << std::endl;
 
-    std::cout << "Pop elemento: " << pila.pop() << std::endl;
+    std::cout << "Aggiungi elemento: " << pila.pop() << std::endl;
 
     std::cout << "Dimensione: " << pila.size() << std::endl;
 
